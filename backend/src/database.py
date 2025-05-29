@@ -25,7 +25,7 @@ class DatabaseManager:
         if self._client is None:
             url = "https://qwnyotnopqbynarbtpsf.supabase.co"
             # Use service role key for backend operations
-            key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF3bnlvdG5vcHFieW5hcmJ0cHNmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczOTA2NTM2MiwiZXhwIjoyMDU0NjQxMzYyfQ.nvCdn4mb4eG-1lqqrTmZ8XwdJkNJ38Le0_ETyyxOLCw"
+            key = "____"
             self._client = create_client(url, key)
             logger.info("Initialized Supabase client with service role")
 
